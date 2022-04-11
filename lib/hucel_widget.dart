@@ -2,6 +2,8 @@ library hucel_widget;
 
 // ## - Column Widget - ## //
 export 'src/column_widget/column_widget.dart';
+// ## - Row Widget - ## //
+export 'src/row_widget/row_widget.dart';
 
 // /// A Calculator.
 // class Calculator {
