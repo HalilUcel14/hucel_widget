@@ -4,8 +4,8 @@ library hucel_widget;
 export 'src/column_widget/column_widget.dart';
 // ## - Row Widget - ## //
 export 'src/row_widget/row_widget.dart';
-
-export 'src/fitted_box/fitted_box.dart';
+// ## - Container Widget - ## //
+export 'src/container_widget/container_widget.dart';
 
 // /// A Calculator.
 // class Calculator {
