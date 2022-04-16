@@ -1,6 +1,6 @@
 name: hucel_widget
-description: Basit Kullanım Widget
-version: 0.0.2
+description: Basit Kullanım Widget Projelerde Temel Olan Widgetler ve Gelişmiş Widget
+version: 0.0.3
 homepage: https://github.com/HalilUcel14/hucel_widget
 
 environment:
