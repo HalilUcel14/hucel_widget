@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-typedef VoidStringFunction = void Function(String? value)?;
-typedef GetStringFunction = String Function(String? value)?;
-typedef VoidFunction = void Function()?;
+import '../../packages_constant.dart';
 
 const Color _textColor = Color(0xff757575);
 const String _labelText = "Email Address";
