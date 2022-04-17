@@ -1,6 +1,6 @@
 name: hucel_widget
 description: Basit Kullanım Widget Projelerde Temel Olan Widgetler ve Gelişmiş Widget
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/HalilUcel14/hucel_widget
 
 environment:
@@ -8,6 +8,8 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  # -- İs Connected Control -- #
+  connectivity_plus: ^2.3.0
   flutter:
     sdk: flutter
 
