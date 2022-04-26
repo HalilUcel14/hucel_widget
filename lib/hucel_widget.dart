@@ -14,7 +14,7 @@ export 'src/utiliy_widget/connect_widget/connection_network_widget.dart';
 export 'src/form_widget/email_form_field.dart';
 export 'src/form_widget/password_form_field.dart';
 // ## - SizedBox Widget - ## //
-export 'src/sizedbox_widget/space_sized_box.dart';
+export 'src/sizedbox_widget/space_sizedbox.dart';
 // ## - Text Widget - ## //
 export 'src/text_widget/dynamic_fit_text.dart';
 // ## - Extension - ## //
