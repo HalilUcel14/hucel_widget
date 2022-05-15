@@ -8,6 +8,41 @@
 
 ## Linkedin : https://www.linkedin.com/in/halilucel/
 
+###  Scaffold in SafeArea
+Ne İşe Yarar: SafeArea içerisinde oto scaffold sunar. Eklenmeyi Kolaylaştırır.
+
+// Before
+```dart
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key:key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+
+      child: Scaffold(
+        appBar: AppBar(),
+      ),
+    );
+  }
+}
+
+```
+
+// After
+```dart
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key:key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeScaffold(
+      appbar: AppBar()
+    )
+  }
+}
+
+```
 
 ###  İs Connected Widget
 Ne İşe Yarar: İnternete Bağlı olup olmadığınıza dair Widget Dönderir
